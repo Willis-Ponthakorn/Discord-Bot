@@ -26,4 +26,5 @@ async def on_message(message):
 
     await bot.process_commands(message)
 
-bot.run(token, log_handler=handler, log_level=logging.DEBUG)
+
+bot.run(token)
